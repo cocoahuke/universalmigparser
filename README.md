@@ -193,7 +193,8 @@ It's the output style I designed, simple but extendable:
 I didn't pack it into a command line tool, as I said, you will need to modify the code to fit your need, often.  
 Wrote in PURE C, nothing need to worry about.
 
-##<a name="XNUGETFILE"></a> How to get RPC user-side source file from XNU source
+<a name="XNUGETFILE"></a>
+## How to get RPC user-side source file from XNU source
 It's a little tricky method but works:
 
 #### Step 1
@@ -240,7 +241,8 @@ It appears in the very early stage during the compiling. And you should able to 
 
 If you can't even generate server-side files, check your `dtrace` and `bootstrap_cmds` installation, they are necessary for start compiling.
 
-##<a name="KEXTPROG"></a> About program a kernel extension for function hooking
+<a name="KEXTPROG"></a>
+## About program a kernel extension for function hooking
 
 For now, you need figure out how to hook kernel function and write it down as kext, all by yourself. If you have done hook a C function by rewrite memory in the user-space before. you only need little extra work to make it work in the kernel.
 

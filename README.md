@@ -1,7 +1,7 @@
 # Universal MIG Parser
-Extract and generate code based on name and type for mig func/arg/request&reply member etc, ideal helper for creating monitor, tracker, fuzzer etc for Mach remote procedure calls.
+Extract and generate code based on name and type for mig func/arg/request&reply member etc, ideal helper for creating monitor, tracker, fuzzer etc for Mach Remote Procedure Calls.
 
-[![Contact](https://img.shields.io/badge/contact-@cocoahuke-fbb52b.svg?style=flat)](https://twitter.com/cocoahuke) [![build](https://travis-ci.org/cocoahuke/coBlue.svg?branch=master)](https://travis-ci.org/cocoahuke/coBlue) [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/cocoahuke/coBlue/blob/master/LICENSE) [![version](https://img.shields.io/badge/version-1.0-yellow.svg)]()
+[![Contact](https://img.shields.io/badge/contact-@cocoahuke-fbb52b.svg?style=flat)](https://twitter.com/cocoahuke) [![build](https://travis-ci.org/cocoahuke/universalmigparser.svg?branch=master)](https://travis-ci.org/cocoahuke/universalmigparser) [![license](https://img.shields.io/badge/license-LGPL-blue.svg)](https://github.com/cocoahuke/universalmigparser/blob/master/LICENSE) [![version](https://img.shields.io/badge/version-1.0-yellow.svg)]()
 
 
 ##### TL;DR [Click here to see generated code for a simple monitor]()
@@ -255,4 +255,4 @@ Even after you successfully completed kext, you will encounter several problems 
 Hmmm, I may release other projects would help at least some of these problems.
 
 Read interspersed comments in the code, sorry about lame English.  
-[Click here to see generated code for a simple monitor.]()
+[Click here to see generated code for a simple monitor]().

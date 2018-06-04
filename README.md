@@ -189,8 +189,8 @@ It's the output style I designed, simple but extendable:
     (IPC Port Object) 0xffffff803b3ce860
 
 ```
-## No Makefile ?
-As I said, you will need to modify the code to fit your need, often.  
+## No command line arguments ?
+I didn't pack it into a command line tool, as I said, you will need to modify the code to fit your need, often.  
 Wrote in PURE C, nothing need to worry about.
 
 ##<a name="XNUGETFILE"></a>How to get RPC user-side source file from XNU source

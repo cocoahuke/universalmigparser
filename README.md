@@ -75,7 +75,7 @@ if(option & MACH_RCV_MSG) ->
 
 You probably already noticed that the process of converting (`32bit integer <-> ipc port object`) is a good place for observe all passed Mach messages.
 
-Yes, then you will need load a kext to hook these four functions, here is the code I use. It reminds me MSHookFunction(). [About how to program such kernel kext](aa).
+Yes, then you will need load a kext to hook these four functions, here is the code I use. It reminds me MSHookFunction(). [About how to program such kernel kext](#KEXTPROG).
 
 ```
 /*
@@ -114,8 +114,8 @@ Apply same way to `ipc_kmsg_copyout_head` and `ipc_kmsg_copyout_body`.
 This project I brought to you was basically is a **Code Generator**, maximize possible customizations.  
 
 #### Need input ?
-You only need to specify an RPC user-side .c file.  [I will tell you how to get from xnu source.]()  
-such as device_user.c, used to interactive with IOKit in the kernel.
+You only need to specify an RPC user-side .c file. Such as device_user.c, used to interactive with IOKit in the kernel.  
+[I will tell you how to get from xnu source](#XNUGETFILE).
 
 Universal MIG Parser list all RPCs in the source file, and extract the following information from each function, AND turn them into code:
 
@@ -193,7 +193,7 @@ It's the output style I designed, simple but extendable:
 As I said, you will need to modify the code to fit your need, often.  
 Wrote in PURE C, nothing need to worry about.
 
-## How to get RPC user-side source file from XNU source
+##<a name="XNUGETFILE"></a>How to get RPC user-side source file from XNU source
 It's a little tricky method but works:
 
 ##### Step 1
@@ -240,7 +240,7 @@ It appears in the very early stage during the compiling. And you should able to 
 
 If you can't even generate server-side files, check your `dtrace` and `bootstrap_cmds` installation, they are necessary for start compiling.
 
-## About program a kernel extension for function hooking
+##<a name="KEXTPROG"></a>About program a kernel extension for function hooking
 
 For now, you need figure out how to hook kernel function and write it down as kext, all by yourself. If you have done hook a C function by rewrite memory in the user-space before. you only need little extra work to make it work in the kernel.
 

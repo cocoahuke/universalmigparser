@@ -4,7 +4,7 @@ Extract and generate code based on name and type for mig func/arg/request&reply 
 [![Contact](https://img.shields.io/badge/contact-@cocoahuke-fbb52b.svg?style=flat)](https://twitter.com/cocoahuke) [![build](https://travis-ci.org/cocoahuke/universalmigparser.svg?branch=master)](https://travis-ci.org/cocoahuke/universalmigparser) [![license](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/cocoahuke/universalmigparser/blob/master/LICENSE) [![version](https://img.shields.io/badge/version-1.0-yellow.svg)]()
 
 
-##### TL;DR [Click here to see generated code for a simple monitor]()
+##### TL;DR [Click here to see generated code for a simple monitor](https://github.com/cocoahuke/universalmigparser/blob/master/Generated_code_sample.txt)
 
 ## The brief description of Mach RPC
 
@@ -255,4 +255,4 @@ Even after you successfully completed kext, you will encounter several problems 
 Hmmm, I may release other projects would help at least some of these problems.
 
 Read interspersed comments in the code, sorry about lame English.  
-[Click here to see generated code for a simple monitor]().
+[Click here to see generated code for a simple monitor](https://github.com/cocoahuke/universalmigparser/blob/master/Generated_code_sample.txt).

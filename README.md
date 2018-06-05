@@ -121,16 +121,16 @@ Universal MIG Parser list all RPCs in the source file, and extract the following
 
 * Function Name
 * Function Argument list
- * Type
- * Name
+  * Type
+  * Name
 * Content in msgh_id
 * Content in msgh_reply_port and msgh_request_port
 * Request and Reply Structure member list
- * Type
- * Name
- * Array counting
- * Whether is function argument
- * Whether included by msgh_body  
+  * Type
+  * Name
+  * Array counting
+  * Whether is function argument
+  * Whether included by msgh_body  
 * ...
 
 "dynamic delta size" and "mig_reply_error_t potentially different formats reply data" problem is already solved for you.  
